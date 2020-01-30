@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
+import WelcomeMessage from './WelcomeMessage'
+import AppLayout from './AppLayout'
+
+
 
 function App() {
   return (
-    <div>
-      hello world
-    </div>
-  );
+    <AppLayout>
+    <WelcomeMessage/>
+    </AppLayout>
+  ); 
 }
 
 export default App;
